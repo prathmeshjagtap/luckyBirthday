@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+:root {
+  --primary-color: #00aed6;
+  --white: #fff;
+}
+body {
+  font-family: "Merriweather", serif;
+  background-color: var(--off-white);
+  color: var(--white);
+  margin: 0;
+}
+.box {
+  width: 100%;
+  max-width: 500px;
+  min-height: 300px;
+  margin: auto;
+  text-align: center;
+  background-color: var(--primary-color);
+  box-sizing: border-box;
+}
+.privacyNotice {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem auto;
+  background-color: #93c5fd;
+  color: #ea300b;
+}
+input {
+  height: 40px;
+  display: block;
+  margin: auto;
+  width: 200px;
+  font-size: 1rem;
+  background-color: white;
+}
+button {
+  cursor: pointer;
+  color: #111;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #ffa91f;
+  margin-top: 0.5rem;
+}
+button:hover {
+  background-color: #4990f3;
+  transition: all 0.2s;
+}
+img {
+  max-height: 300px;
+  max-width: 300px;
+}
+h1 {
+  padding-top: 20px;
+}
+
+h2 {
+  padding: 0;
+  margin: 10px;
+}
+.footer {
+  position: fixed;
+  margin-top: 10px;
+  align-items: center;
+  padding-top: 1rem;
+  background-color: var(--white);
+  text-align: center;
+  color: black;
+}
+.footer h5 {
+  color: black;
+}
+
+.footer li {
+  display: inline;
+  list-style-image: none;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  .box {
+    margin-top: 1rem;
+  }
+}

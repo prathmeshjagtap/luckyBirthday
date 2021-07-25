@@ -5,17 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+
     <title>Lucky-Birthday</title>
   </head>
   <body>
-    <h1>Hey Stranger</h1>
-    <h1>Enter your Birth day</h1>
-    <input id="birthDate" type="date" />
-    <h2>Enter your Lucky Number</h2>
-    <input id="luckyNumber" placeholder="Enter your Lucky Number Here" />
-    <button onclick="check()">Check</button>
-    <h2 id="output"></h2>
-    <img id="image" />
+    <div class="box">
+      <h1>Is your Birth-Day Lucky!</h1>
+      <div class="privacyNotice">
+        <strong> Privacy Notice! : </strong> We are not storing your data.
+      </div>
+      <form id="form">
+        <h2>Enter your Birth day</h2>
+        <input required id="birthDate" type="date" />
+        <h2>Enter your Lucky Number</h2>
+        <input
+          type="number"
+          min="1"
+          step="1"
+          required
+          id="luckyNumber"
+          placeholder="Enter Lucky Number"
+        />
+        <button type="submit">Check</button>
+      </form>
+      <h2 id="output"></h2>
+      <img id="image" />
+    </div>
+    <footer class="footer">
+      <h2>Connect with me on</h2>
+      <ul>
+        <li>
+          <a href="https://twitter.com/prathmesh_20">
+            <img alt="Twitter" src="./icons/icons8-twitter-40 (1).png" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/prathmesh_jagtap_/">
+            <img alt="Instagram" src="./icons/icons8-instagram-logo-40.png" />
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/prathmeshjagtap">
+            <img alt="Github" src="./icons/icons8-github-40.png" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/prathmeshjagtap">
+            <img alt="Linkedin" src="./icons/icons8-linkedin-40.png" />
+          </a>
+        </li>
+      </ul>
+
+      <h5>© 2021 | prathmesh | Privacy Policy</h5>
+    </footer>
+
     <script src="app.js"></script>
   </body>
 </html>
