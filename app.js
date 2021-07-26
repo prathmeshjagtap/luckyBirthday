@@ -16,9 +16,9 @@ form.addEventListener("submit", (e) => {
   }
   if (sum % luckyValue === 0) {
     output.textContent = "hooray ! you are a Lucky Person ";
-    image.src = "./icons/do-you-even-know-how-lucky-you-are.jpg";
+    image.src = "./images/do-you-even-know-how-lucky-you-are.jpg";
   } else {
     output.textContent = "Oops!!Your birthday is not a lucky number!";
-    image.src = "./icons/oh-no-seems-like-you-are-not-that-lucky-today.jpg";
+    image.src = "./images/oh-no-seems-like-you-are-not-that-lucky-today.jpg";
   }
 });

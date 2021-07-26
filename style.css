@@ -1,12 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Varela&display=swap");
+
 :root {
   --primary-color: #00aed6;
   --white: #fff;
 }
 body {
-  font-family: "Merriweather", serif;
-  background-color: var(--off-white);
-  color: var(--white);
+  font-family: "Crimson Text", serif;
+  font-family: "Varela", sans-serif;
+  background-color: var(--primary-color);
+  text-align: center;
   margin: 0;
 }
 .box {
@@ -15,8 +17,11 @@ body {
   min-height: 300px;
   margin: auto;
   text-align: center;
-  background-color: var(--primary-color);
+  background-color: #ffffff;
   box-sizing: border-box;
+  border-radius: 20px;
+  border: 1px solid #111;
+  box-shadow: 0px 1px 50px 8px #343a40;
 }
 .privacyNotice {
   width: fit-content;
@@ -32,9 +37,11 @@ input {
   height: 40px;
   display: block;
   margin: auto;
-  width: 200px;
+  width: 250px;
   font-size: 1rem;
   background-color: white;
+  border: 1px solid var(--primary-color);
+  border-radius: 20px;
 }
 button {
   cursor: pointer;
@@ -42,22 +49,18 @@ button {
   outline: none;
   border: none;
   font-weight: 700;
-  border-radius: 0.5rem;
+  border-radius: 15px;
   padding-left: 2rem;
   padding-right: 2rem;
   margin-right: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  background-color: #ffa91f;
+  background-color: #a2d2ff;
   margin-top: 0.5rem;
 }
 button:hover {
-  background-color: #4990f3;
+  background-color: var(--primary-color);
   transition: all 0.2s;
-}
-img {
-  max-height: 300px;
-  max-width: 300px;
 }
 h1 {
   padding-top: 20px;
@@ -67,25 +70,18 @@ h2 {
   padding: 0;
   margin: 10px;
 }
+
 .footer {
-  position: fixed;
-  margin-top: 10px;
-  align-items: center;
-  padding-top: 1rem;
-  background-color: var(--white);
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
   text-align: center;
-  color: black;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 1px solid #111;
+  box-shadow: 0px 1px 50px 8px #343a40;
 }
-.footer h5 {
-  color: black;
-}
-
-.footer li {
-  display: inline;
-  list-style-image: none;
-  padding: 1rem;
-}
-
 @media (min-width: 768px) {
   .box {
     margin-top: 1rem;
