@@ -25,6 +25,7 @@ body {
 }
 .privacyNotice {
   width: fit-content;
+  font-size: small;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -113,5 +114,8 @@ footer i:hover {
 @media (min-width: 768px) {
   .box {
     margin-top: 1rem;
+  }
+  .privacyNotice {
+    font-size: medium;
   }
 }
