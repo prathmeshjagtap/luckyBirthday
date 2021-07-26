@@ -32,6 +32,7 @@ body {
   margin: 1rem auto;
   background-color: #93c5fd;
   color: #ea300b;
+  border: 0.5px solid #ea300b;
 }
 input {
   height: 40px;
@@ -71,16 +72,43 @@ h2 {
   margin: 10px;
 }
 
+.close {
+  font-weight: 900;
+  margin-left: 10px;
+  border-radius: 100%;
+  padding: 4px 8px;
+  border: 1px solid #ea300b;
+  text-align: center;
+}
+.image {
+  max-width: 200px;
+  max-height: 200px;
+}
+
 .footer {
   width: 100%;
   max-width: 500px;
   margin: auto;
   text-align: center;
   background-color: #ffffff;
+  margin-top: 15px;
   box-sizing: border-box;
   border-radius: 20px;
   border: 1px solid #111;
   box-shadow: 0px 1px 50px 8px #343a40;
+}
+.footer a {
+  padding: 3px;
+  margin: 3px;
+}
+.footer i {
+  color: var(--primary-color);
+}
+.footer i {
+  color: var(--primary-color);
+}
+footer i:hover {
+  color: #93c5fd;
 }
 @media (min-width: 768px) {
   .box {

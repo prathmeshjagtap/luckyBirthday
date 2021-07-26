@@ -3,6 +3,12 @@ const luckyNumber = document.getElementById("luckyNumber");
 const output = document.getElementById("output");
 var image = document.getElementById("image");
 const form = document.getElementById("form");
+const close = document.querySelector(".close");
+const privacyNotice = document.querySelector(".privacyNotice");
+
+close.addEventListener("click", (e) => {
+  privacyNotice.style.display = "none";
+});
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
