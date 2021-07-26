@@ -1,5 +1,4 @@
-# luckyBirthday
-Is your birthday lucky?
+# Is your birthday lucky?
 This is fun game app, created using Vanilla JS.
 
 How this works?
