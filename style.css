@@ -114,4 +114,7 @@ footer i:hover {
   .box {
     margin-top: 1rem;
   }
+  .privacyNotice {
+    width: 100%;
+  }
 }
